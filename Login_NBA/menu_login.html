@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Login</title>
+	<link rel="icon" href="./img/star_nba.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<a href="../index.html"><img src="./img/back.png" alt="voltar" class="btn_voltar"></a>
+		<div class="container-login">
+			<div class="wrap-login">
+				<form class="login-form">
+					<span class="login-form-title">
+						Faça o login
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="email" autocomplete="off">
+						<span class="focus-input-form" data-placeholder="E-mail"></span>
+					</div>
+					
+
+					<div class="wrap-input margin-bottom-35">
+						<input class="input-form" type="password" name="password">
+						<span class="focus-input-form" data-placeholder="Senha"></span>
+					</div>
+
+					<div class="container-login-form-btn">
+						<button class="login-form-btn">
+							Login
+						</button>
+					</div>
+
+					<ul class="login-utils">
+						<li class="margin-bottom-8 margin-top-8">
+							<span class="text1">
+								Esqueceu sua
+							</span>
+
+							<a href="#" class="text2">
+								senha?
+							</a>
+						</li>
+
+						<li>
+							<span class="text1">
+								Não tem conta?
+							</span>
+
+							<a href="../Cadastro_NBA/menu_cadastro.html" class="text2">
+								Cadastre-se
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<img src="./img/right.png" class="margin-left-50" />
+		</div>
+	</div>
+
+	<footer>
+		<img src="./img/logo_nba.png" alt="NBA">
+		<p class="copyright">&copy 2024 NBA. Desenvolvido por Leonardo Vieira</p>
+	</footer>
+	
+	<script>
+		let inputs = document.getElementsByClassName('input-form');
+		for (let input of inputs) {
+			input.addEventListener("blur", function() {
+				if(input.name === "email" && !input.value.includes('@')) {
+					alert('Por favor, insira um @ e-mail válido.');
+				}
+				if(input.value.trim() != ""){
+					input.classList.add("has-val");
+				} else {
+					input.classList.remove("has-val");
+				}
+			});
+		}
+
+		document.addEventListener("DOMContentLoaded", function() {
+        let loginFormBtn = document.querySelector('.login-form-btn');
+        
+        loginFormBtn.addEventListener('click', function(event) {
+            let emailInput = document.querySelector('input[name="email"]');
+            let passwordInput = document.querySelector('input[name="password"]');
+            
+            if (emailInput.value.trim() === "" || passwordInput.value.trim() === "") {
+                event.preventDefault(); // Previne o envio do formulário
+                alert('Por favor, preencha todos os campos.');
+            }
+        });
+    });
+	</script>
+
+</body>
+</html>
