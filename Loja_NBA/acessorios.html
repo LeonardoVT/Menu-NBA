@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja NBA</title>
+    <link rel="icon" href="./images/star_nba.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <a href="../index.html"><img src="./images/back.png" alt="voltar" class="btn_voltar"></a>
+                <p class="brand">Faça suas <strong>compras</strong></p>
+                <ul>
+                    <li><a href="./menu_loja.html">Loja</a></li>
+                    <li><a href="../Contato_NBA/contato.html">Contato</a></li>
+                    <strong><li><a href="#feature">Carrinho 🛒</a></li></strong>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>Lançamento da semana 🔥</h2>
+                    <p>Pulseira Los Angeles Lakers - Ouro</p>
+                </div>
+                <img src="./images/Acessorios/acessorio_1.avif" alt="Bracelete" class="img_seller">
+                <button onclick="changeImage()"><img src="./images/trocar.png" alt="trocar" class="img_trocar"></button>
+            </div>
+                
+        </div>
+    </header>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p style="color: #00285f;">Aqui você encontra tudo sobre NBA 🏀</p>
+                <h3 style="color: #00285f;">Catálogo</h3>
+            </div>
+            <div class="filter-card">
+
+                <input type="text" id="search-input" class="search-input" placeholder="Escolha seu modelo preferido"/>
+                 <button class="search-button">Buscar</button>
+            </div>
+            <div class="card-wrapper">
+               
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_1.webp" alt="Necessary San Antonio Spurs">
+                    <div class="card-content">
+                        <h3>Necessary San Antonio Spurs</h3>
+                        <strong>
+                            R$ 80,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_2.avif" alt="Colar Golden State Warriors">
+                    <div class="card-content">
+                        <h3>Colar Golden State Warriors</h3>
+
+                        <strong>
+                            R$ 120,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_3.avif" alt="Colecionavel Michael Jordan">
+                    <div class="card-content">
+                        <h3>Colecionável Michael Jordan</h3>
+                
+                        <strong>
+                            R$ 200,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_4.webp" alt="Camisa Jayson Tatum Autografada">
+                    <div class="card-content">
+                        <h3>Jersey Jayson Tatum</h3>
+                    
+                        <strong>
+                            R$ 700,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_5.avif" alt="Boné New York Knicks">
+                    <div class="card-content">
+                        <h3>Boné New York Knicks</h3>
+                       
+                        <strong>
+                            R$ 130,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+
+
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_6.avif" alt="Boné Chicago Bulls">
+                    <div class="card-content">
+                        <h3>Boné Chicago Bulls</h3>
+        
+                        <strong>
+                            R$ 130,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_7.avif" alt="Camisa Golden State Warriors">
+                    <div class="card-content">
+                        <h3>Camisa Golden State Warriors</h3>
+                        
+                        <strong>
+                            R$ 110,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_8.avif" alt="Camisa Infantil Toronto Raptors">
+                    <div class="card-content">
+                        <h3>Camisa Infantil Toronto Raptors</h3>
+                
+                        <strong>
+                            R$ 100,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Acessorios/item_9.avif" alt="Wristbands NBA">
+                    <div class="card-content">
+                        <h3>Wristbands NBA</h3>
+                    
+                        <strong>
+                            R$ 80,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br/>
+
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <p>Não encontrou o que procurava?</p>
+                <h3>Localize abaixo diferentes acessórios:</h3>
+            </div>
+            <div class="feature-card-block">
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/bracelet_logo.png" alt="Bracelete"/>
+                    <div class="feature-text-content">
+                        <h3>Pulseiras</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+
+
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/pendant.png" alt="Pingente"/>
+                    <div class="feature-text-content">
+                        <h3>Pingentes</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/bag.png" alt="Bolsa"/>
+                    <div class="feature-text-content">
+                        <h3>Bolsas</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/giftbox.png" alt="Colecionáveis"/>
+                    <div class="feature-text-content">
+                        <h3>Colecionáveis</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/cap.png" alt="Boné"/>
+                    <div class="feature-text-content">
+                        <h3>Bonés</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Acessorios/jacket.png" alt="Agasalho"/>
+                    <div class="feature-text-content">
+                        <h3>Agasalhos</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <h6>Saiba mais</h6>
+                    <h6>Contato</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Mantenha conectado</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nbabrasil/?img_index=1"><img src="images/instagram.png" alt="instagram"></a>
+                        <a href="https://pt-br.facebook.com/NBABrasil/"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://br.linkedin.com/in/leonardo-teles-12646321b?trk=people-guest_people_search-card"><img src="./images/linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <h6>+55 11 96189-0406</h6>
+                    <h6>NBA Store</h6>
+                    <h6>Av. São João, 439, SP - Brasil</h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            &copy 2024 NBA. Desenvolvido por Leonardo Vieira
+        </div>
+    </footer>
+
+    <script>
+
+    function changeImage() {
+        var imgSeller = document.querySelector('.img_seller');
+        var currentSrc = imgSeller.getAttribute('src');
+        var newSrc = currentSrc === './images/Acessorios/acessorio_1.avif' ? './images/Acessorios/acessorio_1-back.avif' : './images/Acessorios/acessorio_1.avif';
+        imgSeller.setAttribute('src', newSrc);
+    }
+    
+    </script>
+</body>
+</html>

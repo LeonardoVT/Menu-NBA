@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja NBA</title>
+    <link rel="icon" href="./images/star_nba.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <a href="../index.html"><img src="./images/back.png" alt="voltar" class="btn_voltar"></a>
+                <p class="brand">Faça suas <strong>compras</strong></p>
+                <ul>
+                    <li><a href="../Loja_NBA/menu_loja.html">Loja</a></li>
+                    <li><a href="../Contato_NBA/contato.html">Contato</a></li>
+                    <strong><li><a href="#feature">Carrinho 🛒</a></li></strong>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>Lançamento da semana 🔥</h2>
+                    <p>Charlotte Hornets LaMello Ball no. 2</p>
+                    <a href="https://www.nba.com/hornets/"><img src="./images/hornet.png" alt="Best_seller" class="img_slow"></a>
+                </div>
+                <img src="./images/hornets.jpg" alt="Car" class="img_seller">
+                <button onclick="changeImage()"><img src="./images/trocar.png" alt="trocar" class="img_trocar"></button>
+            </div>
+                
+        </div>
+    </header>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p style="color: #00285f;">Aqui você encontra tudo sobre NBA 🏀</p>
+                <h3 style="color: #00285f;">Catálogo</h3>
+            </div>
+            <div class="filter-card">
+
+                <input type="text" id="search-input" class="search-input" placeholder="Escolha seu modelo preferido"/>
+                 <button class="search-button">Buscar</button>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <img src="./images/lakers.jpg" alt="Lakers">
+                    <div class="card-content">
+                        <h3>Los Angeles Lakers</h3>
+                        <p>
+                            Jersey LA Lakers Home, Anthony Davis n.3
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/clippers.jpg" alt="Clippers">
+                    <div class="card-content">
+                        <h3>Los Angeles Clippers</h3>
+                        <p>
+                            Jersey LA Clippers, Paul George n.13
+                        </p>
+                        <strong>
+                            R$ 290,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/philadelphia.jpg" alt="Phila">
+                    <div class="card-content">
+                        <h3>Philadelphia 76ers</h3>
+                        <p>
+                            Jersey Phila 76ers, Howard n.39 
+                        </p>
+                        <strong>
+                            R$ 350,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/phoenix.jpg" alt="Phoenix">
+                    <div class="card-content">
+                        <h3>Phoenix Suns</h3>
+                        <p>
+                            Jersey Phoenix Suns, Booker n.1
+                        </p>
+                        <strong>
+                            R$ 350,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      <div class="card-item">
+                    <img src="./images/spurs.jpg" alt="Spurs">
+                    <div class="card-content">
+                        <h3>San Antonio Spurs</h3>
+                        <p>
+                            Jersey San Antonio Spurs, Keldon Johnson n.3
+                        </p>
+                        <strong>
+                            R$ 360,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/heat.jpg" alt="Heat">
+                    <div class="card-content">
+                        <h3>Miami Heat</h3>
+                        <p>
+                            Jersey Miami Heat, Butler n.22
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/boston.jpg" alt="Boston">
+                    <div class="card-content">
+                        <h3>Boston Celtics</h3>
+                        <p>
+                            Jersey Boston Celtics, Jayson Tatum n.0
+                        </p>
+                        <strong>
+                            R$ 360,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/hawks.jpg" alt="Hawks">
+                    <div class="card-content">
+                        <h3>Atlanta Hawks</h3>
+                        <p>
+                            Jersey Atlanta Hawks, Trae Young n.11
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/thunder.jpg" alt="Thunder">
+                    <div class="card-content">
+                        <h3>Oklahoma City Thunder</h3>
+                        <p>
+                            Jersey OK City Thunder, Carmelo Anthony n.7 
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/knicks.jpg" alt="Knicks">
+                    <div class="card-content">
+                        <h3>New York Knicks</h3>
+                        <p>
+                            Jersey New York Knicks, D'Rose n.4
+                        </p>
+                        <strong>
+                            R$ 310,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/toronto.jpg" alt="Toronto">
+                    <div class="card-content">
+                        <h3>Toronto Raptors</h3>
+                        <p>
+                            Jersey Toronto Raptors, Kyle Lowry n.7 
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/bulls.jpg" alt="Bulls">
+                    <div class="card-content">
+                        <h3>Chicago Bulls</h3>
+                        <p>
+                            Jersey Chicago Bulls Special, Scottie Pippen n.33
+                        </p>
+                        <strong>
+                            R$ 330,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="./images/bucks.jpg" alt="Bucks">
+                    <div class="card-content">
+                        <h3>Milwaukee Bucks</h3>
+                        <p>
+                            Jersey Milwaukee Bucks, Giannis Antetokounmpo n.34
+                        </p>
+                        <strong>
+                            R$ 330,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/jazz.jpg" alt="Jazz">
+                    <div class="card-content">
+                        <h3>Utah Jazz</h3>
+                        <p>
+                            Jersey Utah Jazz, Donovan Mitchell n.45
+                        </p>
+                        <strong>
+                            R$ 300,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/warriors.jpg" alt="Warriors">
+                    <div class="card-content">
+                        <h3>Golden State Warriors</h3>
+                        <p>
+                            Jersey Golden State Warriors, Stephen Curry n.30
+                        </p>
+                        <strong>
+                            R$ 310,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+
+
+                <div class="card-item">
+                    <img src="./images/mavericks.jpg" alt="Mavericks">
+                    <div class="card-content">
+                        <h3>Dallas Mavericks</h3>
+                        <p>
+                            Jersey Dallas Mavericks, Luka Doncic n.77
+                        </p>
+                        <strong>
+                            R$ 310,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/memphis.jpg" alt="Grizzlies">
+                    <div class="card-content">
+                        <h3>Memphis Grizzlies</h3>
+                        <p>
+                            Jersey Memphis Grizzlies, Ja Morant n.12
+                        </p>
+                        <strong>
+                            R$ 330,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/rockets.jpg" alt="Rockets">
+                    <div class="card-content">
+                        <h3>Houston Rockets</h3>
+                        <p>
+                            Jersey Houston Rockets, Russel Westbrook n.0
+                        </p>
+                        <strong>
+                            R$ 310,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br/>
+
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <p>Não encontrou o que procurava?</p>
+                <h3>Localize abaixo modelos do seu time preferido:</h3>
+            </div>
+            <div class="feature-card-block">
+                <div class="feature-card-item">
+                    <img src="images/magic.png" alt="Orlando Magic"/>
+                    <div class="feature-text-content">
+                        <h3>Orlando Magic</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+
+
+                <div class="feature-card-item">
+                    <img src="images/blazers.png" alt="Portland Trail Blazers"/>
+                    <div class="feature-text-content">
+                        <h3>Portland Trail Blazers</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/timberwolves.png" alt="Minnesota Timberwolves"/>
+                    <div class="feature-text-content">
+                        <h3>Minnesota Timberwolves</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/pacers.png" alt="Indiana Pacers"/>
+                    <div class="feature-text-content">
+                        <h3>Indiana Pacers</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/nets.png" alt="Brooklyn Nets"/>
+                    <div class="feature-text-content">
+                        <h3>Brooklyn Nets</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/pistons.png" alt="Detroit Pistons"/>
+                    <div class="feature-text-content">
+                        <h3>Detroit Pistons</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <h6>Saiba mais</h6>
+                    <h6>Contato</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Mantenha conectado</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nbabrasil/?img_index=1"><img src="images/instagram.png" alt="instagram"></a>
+                        <a href="https://pt-br.facebook.com/NBABrasil/"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://br.linkedin.com/in/leonardo-teles-12646321b?trk=people-guest_people_search-card"><img src="./images/linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <h6>+55 11 96189-0406</h6>
+                    <h6>NBA Store</h6>
+                    <h6>Av. São João, 439, SP - Brasil</h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            &copy 2024 NBA. Desenvolvido por Leonardo Vieira
+        </div>
+    </footer>
+
+    <script>
+
+    function changeImage() {
+        var imgSeller = document.querySelector('.img_seller');
+        var currentSrc = imgSeller.getAttribute('src');
+        var newSrc = currentSrc === './images/hornets.jpg' ? './images/hornets2.jpg' : './images/hornets.jpg';
+        imgSeller.setAttribute('src', newSrc);
+    }
+    
+    </script>
+</body>
+</html>

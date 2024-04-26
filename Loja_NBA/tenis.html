@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja NBA</title>
+    <link rel="icon" href="./images/star_nba.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <a href="../index.html"><img src="./images/back.png" alt="voltar" class="btn_voltar"></a>
+                <p class="brand">Faça suas <strong>compras</strong></p>
+                <ul>
+                    <li><a href="./menu_loja.html">Loja</a></li>
+                    <li><a href="../Contato_NBA/contato.html">Contato</a></li>
+                    <strong><li><a href="#feature">Carrinho 🛒</a></li></strong>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>Lançamento da semana 🔥</h2>
+                    <p>Tênis Nike Cinza - Lebron XXI</p>
+                    <a href="https://www.nike.com.br/"><img src="./images/Tenis/nike_logo.png" alt="Best_seller" class="img_slow"></a>
+                </div>
+                <img src="./images/Tenis/tenis_1.avif" alt="Tenis_1" class="img_seller">
+                <button onclick="changeImage()"><img src="./images/trocar.png" alt="trocar" class="img_trocar"></button>
+            </div>
+                
+        </div>
+    </header>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p style="color: #00285f;">Aqui você encontra tudo sobre NBA 🏀</p>
+                <h3 style="color: #00285f;">Catálogo</h3>
+            </div>
+            <div class="filter-card">
+
+                <input type="text" id="search-input" class="search-input" placeholder="Escolha seu modelo preferido"/>
+                 <button class="search-button">Buscar</button>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_2.avif" alt="Jordan Luka 2">
+                    <div class="card-content">
+                        <h3>Jordan</h3>
+                        <p>
+                            Tênis Jordan cor Branco, modelo Luka 2
+                        </p>
+                        <strong>
+                            R$ 500,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_3.jpg" alt="Jordan XXXVIII">
+                    <div class="card-content">
+                        <h3>Jordan</h3>
+                        <p>
+                            Tênis Jordan cor Vermelho, modelo Air XXXVIII
+                        </p>
+                        <strong>
+                            R$ 520,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_4.avif" alt="Giannis Freak 5">
+                    <div class="card-content">
+                        <h3>Nike</h3>
+                        <p>
+                            Tênis Nike cor Xadrez, modelo Giannis Freak 5 
+                        </p>
+                        <strong>
+                            R$ 450,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_5.webp" alt="Under Spawn 3">
+                    <div class="card-content">
+                        <h3>Under Armour</h3>
+                        <p>
+                            Tênis Under Armour cor Vermelho, modelo Spawn 3
+                        </p>
+                        <strong>
+                            R$ 350,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_6.webp" alt="Adidas Mod Low W">
+                    <div class="card-content">
+                        <h3>Adidas</h3>
+                        <p>
+                            Tênis Adidas cor Branco, modelo Mod Low W
+                        </p>
+                        <strong>
+                            R$ 360,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_7.webp" alt="Dame 8">
+                    <div class="card-content">
+                        <h3>Adidas</h3>
+                        <p>
+                            Tênis Adidas cor Preto, modelo Dame 8 
+                        </p>
+                        <strong>
+                            R$ 310,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>  
+
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_8.jpg" alt="Puma MB 03">
+                    <div class="card-content">
+                        <h3>Puma</h3>
+                        <p>
+                            Tênis Puma cor Azul, modelo MB 03
+                        </p>
+                        <strong>
+                            R$ 340,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_9.jpg" alt="Nike Air Zoom G.T">
+                    <div class="card-content">
+                        <h3>Nike</h3>
+                        <p>
+                            Tênis Nike cor Roxo, modelo Air Zoom G.T. Jump 2
+                        </p>
+                        <strong>
+                            R$ 400,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>      
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_10.avif" alt="Nike Unity 2">
+                    <div class="card-content">
+                        <h3>Nike</h3>
+                        <p>
+                            Tênis Nike cor Azul Claro, modelo Cosmic Unity 2 Low
+                        </p>
+                        <strong>
+                            R$ 390,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_11.jpg" alt="Puma MB.03 Hills">
+                    <div class="card-content">
+                        <h3>Puma</h3>
+                        <p>
+                            Tênis Puma cor Salmão, modelo LaMelo MB.03 Hills
+                        </p>
+                        <strong>
+                            R$ 600,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_12.avif" alt="Jordan XXXVII">
+                    <div class="card-content">
+                        <h3>Jordan</h3>
+                        <p>
+                            Tênis Jordan cor Branco, modelo Air Jordan XXXVII 
+                        </p>
+                        <strong>
+                            R$ 700,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Tenis/tenis_13.jpg" alt="Fila Ace">
+                    <div class="card-content">
+                        <h3>Fila</h3>
+                        <p>
+                            Tênis Fila cor Xadrez, modelo Fila Ace
+                        </p>
+                        <strong>
+                            R$ 230,00
+                        </strong>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><br/>
+
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <p>Não encontrou o que procurava?</p>
+                <h3>Localize abaixo modelos da sua marca preferida:</h3>
+            </div>
+            <div class="feature-card-block">
+                <div class="feature-card-item">
+                    <img src="images/Tenis/nike_logo.png" alt="Nike"/>
+                    <div class="feature-text-content">
+                        <h3>Nike</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+
+
+                <div class="feature-card-item">
+                    <img src="images/Tenis/adidas_logo.png" alt="Adidas"/>
+                    <div class="feature-text-content">
+                        <h3>Adidas</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Tenis/under_logo.png" alt="Under Armour"/>
+                    <div class="feature-text-content">
+                        <h3>Under Armour</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Tenis/jordan.png" alt="Jordan"/>
+                    <div class="feature-text-content">
+                        <h3>Jordan</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Tenis/puma_logo.png" alt="Puma"/>
+                    <div class="feature-text-content">
+                        <h3>Puma</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+                
+                <div class="feature-card-item">
+                    <img src="images/Tenis/reebok_logo.png" alt="Reebok"/>
+                    <div class="feature-text-content">
+                        <h3>Reebok</h3>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <h6>Saiba mais</h6>
+                    <h6>Contato</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Mantenha conectado</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nbabrasil/?img_index=1"><img src="images/instagram.png" alt="instagram"></a>
+                        <a href="https://pt-br.facebook.com/NBABrasil/"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://br.linkedin.com/in/leonardo-teles-12646321b?trk=people-guest_people_search-card"><img src="./images/linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <h6>+55 11 96189-0406</h6>
+                    <h6>NBA Store</h6>
+                    <h6>Av. São João, 439, SP - Brasil</h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            &copy 2024 NBA. Desenvolvido por Leonardo Vieira
+        </div>
+    </footer>
+
+    <script>
+
+    function changeImage() {
+        var imgSeller = document.querySelector('.img_seller');
+        var currentSrc = imgSeller.getAttribute('src');
+        var newSrc = currentSrc === './images/Tenis/tenis_1.avif' ? './images/Tenis/tenis_1-back.avif' : './images/Tenis/tenis_1.avif';
+        imgSeller.setAttribute('src', newSrc);
+    }
+    
+    </script>
+</body>
+</html>
